@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
-
+  <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/all.min.css">
 
   <title>Document</title>
@@ -15,33 +15,39 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg fixed-top ">
       <div class="container">
+      
         <a class="navbar-brand" href="#">ACTIVE <span>BOX</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
           aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars"></i>
+          <span class="icons">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="main">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item ">
-              <a class="nav-link p-lg-3 " href="#">FEATURES</a>
+              <a class="nav-link p-lg-3 " href="#features">FEATURES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-lg-3" href="#">WORKS</a>
+              <a class="nav-link p-lg-3" href="#work">WORKS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-lg-3" href="#">OURTEAM</a>
+              <a class="nav-link p-lg-3" href="#our-team">OURTEAM</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-lg-3" href="#">TESTIMONIALS</a>
+              <a class="nav-link p-lg-3" href="#our-clients">TESTIMONIALS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-lg-3" href="#">DOWNLOAD</a>
+              <a class="nav-link p-lg-3" href="#download">DOWNLOAD</a>
             </li>
           </ul>
 
         </div>
+     
       </div>
     </nav>
 
@@ -54,7 +60,7 @@
     </div>
   </header>
 
-  <section class="features text-center">
+  <section class="features text-center" id="features">
     <div class="feat"></div>
     <div class="container">
       <div class="row">
@@ -121,7 +127,7 @@
       </div>
     </div>
   </section>
-  <div class="work text-center">
+  <div class="work text-center" id="work">
     <div class="row">
       <div class="col-lg-3 col-md-6">
         <div class="main">
@@ -213,7 +219,7 @@
       </div>
     </div>
   </div>
-  <section class="team-head">
+  <section class="team-head" id="our-team">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-sm-6">
@@ -347,7 +353,7 @@
       </div>
     </div>
   </section>
-  <section class="our-clients">
+  <section class="our-clients" id="our-clients">
     <div class="row">
       <div class="col-md-6">
         <div class=" client-img">
@@ -359,50 +365,58 @@
 
 
 
-
-<div class="slider">
-        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="testi-item carousel-item active  shadow-sm rounded p-4 ">
-
-
-
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner ">
+            <div class="carousel-item active ms-5 ps-5">
               <p>
-                <q>
-                  Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui Aenean eu Leo
-                  quam...
-                </q>
-              </p>
-              <h4 class="text-uppercase">Susan Sims, Interaction Designer at XYZ</h4>
+                  <q>
+                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui Aenean eu Leo
+                    quam...
+                  </q>
+                </p>
+                <h4 class="text-uppercase">Susan Sims, Interaction Designer at XYZ</h4>
+              <div class="carousel-caption d-none d-md-block">
+             
+              </div>
             </div>
-            <div class="testi-item carousel-item  shadow-sm rounded p-4 ">
-
-
-
+            <div class="carousel-item ms-5 ps-5">
               <p>
-                <q>
-                  Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui Aenean eu Leo
-                  quam...
-                </q>
-              </p>
-              <h4 class="text-uppercase">Susan Sims, Interaction Designer at XYZ</h4>
-
+                  <q>
+                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui Aenean eu Leo
+                    quam...
+                  </q>
+                </p>
+                <h4 class="text-uppercase">Susan Sims, Interaction Designer at XYZ</h4>
+              <div class="carousel-caption d-none d-md-block">
+              
+              </div>
             </div>
-            <div class="testi-item carousel-item  shadow-sm rounded p-4 ">
-
-
-
-
+            <div class="carousel-item ms-5 ps-5">
               <p>
-                <q>
-                  Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui Aenean eu Leo
-                  quam...
-                </q>
-              </p>
-              <h4 class="text-uppercase">Susan Sims, Interaction Designer at XYZ</h4>
+                  <q>
+                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui Aenean eu Leo
+                    quam...
+                  </q>
+                </p>
+                <h4 class="text-uppercase">Susan Sims, Interaction Designer at XYZ</h4>
+              <div class="carousel-caption d-none d-md-block">
+              
+              </div>
             </div>
           </div>
-        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
 
@@ -411,12 +425,13 @@
     </div>
     </div>
   </section>
-  <section class="download text-center">
+  <section class="download text-center" id="download">
     <div class="container">
       <div class="download-details">
         <h2>Are You Ready to Start? Download Now For Free!</h2>
         <p>Fusce dapibus, tellus ac cursus commodo</p>
-        <button class="btn btn-danger">Download Here </button>
+       
+        <button class="text-uppercase ">Download Here</button>
       </div>
     </div>
   </section>
@@ -464,11 +479,12 @@
 <div class="copy-right text-center">
   <div class="container">
       <span>Copyright © 2024 ActiveBox. All Rights Reserved </span>
-      <span>Made with <i class="fas fa-heart"></i> 
-          <span class="writer">by Ez Esmail</span>
+      <span>Made with   <i class="fas fa-heart"></i> 
+          <span class="writer">  by Ez Esmail</span>
       </span>
   </div>
 </div>
+
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="js/main.js"></script>

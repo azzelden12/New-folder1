@@ -4,6 +4,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
+}
+body {
+  
+  font-family: "Raleway";
+ 
 }
 
 header {
@@ -18,14 +24,47 @@ header {
     background-size: cover;
 }
 header .navbar {
-    z-index: 99999;
+    z-index: 9999;
+    background-color: #5053693b;
+    transition: all 0.5s;
 }
 header .navbar .container {
-    border-bottom: 1px solid #505369;
-    padding: 10px 0;
+    
+  border-bottom: 1px solid #505369;
+  padding: 10px 0;
    
  
 }
+header .navbar-scrolled {
+  background-color: #505369;
+  opacity:.9;
+}
+header .icons {
+  width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+header .icons span {
+  background-color: #000000;
+  margin-bottom: 5px;
+  height: 2px;
+
+}
+.icons span:first-child {
+ width: 100%;
+}
+.icons span:nth-child(2){
+  width: 60%;
+    transition: 0.3s;
+}
+.icons span:nth-child(2):hover {
+  width: 100%;
+}
+.icons span:last-child {
+  width: 100%;
+}
+
 
 header .container .navbar-brand {
     color: #66697e;
@@ -75,6 +114,7 @@ header .text {
 header .text h1 {
     margin-bottom: 20px;
     font-size: 50px;
+    font-family: "Open Sans";
 }
 header .text p {
     color: #777;
@@ -95,7 +135,8 @@ header .text button:hover {
 }
 @media(max-width:768px) {
     header .text {
-     
+    width: 80%;
+    margin-left:-42%;
     }
     header .text h1 {
         font-size: 20px;
@@ -108,6 +149,14 @@ header .text button:hover {
        
     }
 }
+@media(min-width:350px) {
+ 
+  header .text p {
+    font-size: 15px;
+    line-height: normal;
+  }
+ 
+  } 
 .features {
     margin-top: 4rem;
     position: relative;
@@ -212,6 +261,25 @@ color: #777;
   line-height: 21px;
   color: rgba(108, 114, 121, 0.6);
   }
+
+  .team-card .social-media i {
+    color: #000000;
+    border: 1px solid black;
+    opacity: .3;
+      text-align: center;
+      padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    transition: .5s;
+    margin: 0;
+  }
+  .team-card .social-media i:hover {
+    color: white;
+    opacity: 1;
+    background-color: #0077B5;
+    border: 1px solid white;
+  }
+
   .our-clients .row {
     padding: 0;
     margin: 0;
@@ -249,6 +317,19 @@ color: #777;
     font-size: 10px;
     color: #FFF;
    }
+   .download .download-details button {
+    padding: 8px 30px;
+    border: none;
+    margin-top: 20px;
+    background-color: rgb(184, 51, 51);
+    transition: .5s;
+    color: #FFF;
+}
+.download .download-details button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(184, 51, 51);;
+    color: rgb(184, 51, 51);;
+}
    .footer {
     background-color: #3a3e64;
     padding: 80px 0;
@@ -265,15 +346,73 @@ color: #777;
     font-size: 13px;
     color: rgba(255, 255, 255, 0.4);
   }
-  .footer-box i {
+  .footer-box  i {
     border: 2px solid white;
-    padding-top: 5px;
-   
+    margin: 0;
+    padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ transition: .5s;
     width: 30px;
     height: 30px;
   }
+  .footer-box .social-media .fb{
+    
+    color: white;
+   
+  }
+  .footer-box .social-media {
+    position: relative;
+  }
+  .footer-box .social-media .tw {
+    margin: 0 ;
+  
+    color: white;
+  }
+  .footer-box .social-media .in {
+    color: white;
+   
+  }
+  .footer .location p {
+    color: rgb(160, 154, 154);
+    line-height: .5;
+    font-size: 14px;
+    
+  }
+  .footer .location h3 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .footer .about-active-box p {
+    color: rgb(160, 154, 154);  }  
+  
+
   .footer-box h3 {
     color: white;
     font-size: 16px;
     margin-bottom: 15px;
+  }
+  .footer .footer-box ul.social-media li a:hover .tw {
+    background-color: #FFF;
+    color: #1DA1F2;
+  }
+  .footer .footer-box ul.social-media li a:hover .fb {
+    background-color: #FFF;
+    color: #3B5998;
+  }
+  .footer .footer-box ul.social-media li a:hover .in {
+    background-color: #FFF;
+    color: #0077B5;
+  }
+  .copy-right .container span i {
+    margin-left: 4px;
+    margin-right: 4px;
+    align-items: center;
+    margin-top: 3px;
+    color: rgb(219, 51, 51);
+  }
+  .copy-right .container .writer {
+    color: white;
   }
