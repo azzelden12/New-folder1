@@ -1,0 +1,211 @@
+@media (max-width: 991px) {
+   h3 {
+    width: 75%;
+   }
+   
+    .home-header .btn-3 {
+       
+        left: 30%;
+     margin: auto;
+        z-index: 1;
+        margin-top: 2rem;
+    }
+    .slider-contant {
+        display: none;
+      }
+      
+}
+@media (min-width: 991px) {
+.slider {
+    display: none;
+}
+}
+@media (max-width: 768px) {
+  .pricing-heading {
+    margin-bottom: 1rem;
+  }
+    .home-header .btn-3 {
+       
+        left: 25%;
+     
+        z-index: 1;
+        margin-top: 2rem;
+    }
+    .home-header {
+        width: 100%;
+    }
+    .home-header p {
+        font-size: 10px;
+        width: 90%;
+    }
+    .home-header .dynamic-txt .text-all {
+        font-size: 40px;
+    }
+    .home-header .dynamic-txt .text-all::after {
+        height:100%;
+        bottom: -5px;
+        
+        
+    }
+    h3 {
+        width: 90%;
+        font-size: 30px;
+   
+       }
+       
+    .testimonial-heading .span-head {
+text-align: center;
+    }
+    .testimonial-heading h3,
+    .testimonial-heading p
+    {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+        .testimonial .container {
+        flex-direction: column;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+    .text {
+        width: 100%;
+    }
+    .text h3 {
+          
+        font-size: 20px;
+    }
+    .Services {
+        width: 100%;
+    }
+    .Services h3,
+    .Services p {
+        margin: auto;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .container .row {
+        display: block;
+    }
+    .slider-contant {
+        display: none;
+      }
+}
+
+@media (max-width: 600px) {
+    .home-header .btn-3 {
+       
+        left: 20%;
+     
+        z-index: 1;
+        margin-top: 2rem;
+    }
+    .wrapper .dynamic-txt li {
+       
+        font-size: 30px;
+        
+       
+      
+    }
+    .home-header .dynamic-txt .text-all {
+        font-size: 40px;
+    }
+    .home-header .dynamic-txt .text-all::after {
+        height:100%;
+        bottom: -5px;
+        
+        
+    }
+    .blue-buuton {
+     
+      margin-right: 6rem;
+      margin-left: 20px;
+
+       
+    }
+    .home-header p {
+       
+        text-align: center;
+        font-size: 15px;
+        width: 200px;
+        margin: auto;
+    }
+    .home-header .wave-one {
+        width: 60%;
+        position: absolute;
+        top: px;
+        left: 0;
+        z-index: 1;
+      }
+      .slider-contant {
+        display: none;
+      }
+}
+@media (max-width:350px ) {
+    .wrapper .dynamic-txt {
+       
+        font-size: 30px;
+        font-weight: 500;
+      
+    }
+    .slider-contant .swiper-wrapper .box-card {
+        flex-direction: column;
+        display: block;
+    } 
+    .slider-contant {
+        display: none;
+      }
+      .home-header .btn-3 {
+       
+        left: 20%;
+        
+        z-index: 1;
+
+    }
+    .home-header p {
+       
+        text-align: center;
+        font-size: 10px;
+        width: 200px;
+        margin: auto;
+    }
+h3 {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 100%;
+}
+}
+@media (max-width: 575.9px) {
+    .page-header .header-content {
+        width: 350px;
+        margin-left: -140px;
+    }
+    .home-header .dynamic-txt .text-all {
+        font-size: 20px;
+    }
+    .home-header .dynamic-txt .text-all::after {
+        height:100%;
+        bottom: 0px;
+        
+        
+    }
+    .home-header .wave-one {
+        width: 70%;
+        position: absolute;
+        top:0;
+        left: 0;
+        z-index: 1;
+      }
+      .navbar .navbar-brand  {
+        left:20px ;
+        font-size: 20px
+      }
+      .navbar .navbar-brand .logo {
+        font-size: 20px;
+        top: 10px;
+        
+      }
+      .slider-contant {
+        display: none;
+      }
+}

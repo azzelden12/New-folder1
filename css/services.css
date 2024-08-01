@@ -1,0 +1,49 @@
+.page-header {
+    position: relative;
+    height: 60vh;
+    margin-bottom: 77px;
+    background: linear-gradient(180deg, #f9fbfe 60%, transparent);
+}
+.page-header .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    width: 400px;
+    margin-left: -200px;
+    text-align: center;
+}
+.page-header .header-content h1 {
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "Quicksand", sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+.page-header .header-content h1 span {
+    color: #2C57E4;
+}
+.page-header .header-content nav {
+    margin: auto;
+    width: 180px;
+}
+.page-header .header-content nav .breadcrumb {
+    background-color: transparent;
+}
+.page-header .header-content nav .breadcrumb .breadcrumb-item.active {
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.page-header .header-content nav .breadcrumb .breadcrumb-item.active:hover {
+    color: #2C57E4;
+}
+.page-header .header-content nav .breadcrumb .breadcrumb-item  a{
+    text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #6c757d;
+    content: "/";
+}
+
