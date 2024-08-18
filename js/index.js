@@ -92,3 +92,22 @@ window.addEventListener('scroll', () => {
  
  } 
 textLoad();
+
+$(document).ready(function() {
+  var scrollLink = $('.scrolly');
+
+  scrollLink.click(function(e) {
+    e.preventDefault();
+    $('body,html').animate({
+      scrollTop: $(this.hash).offset().top
+    })
+  })
+});
+
+$("html").niceScroll({
+  cursorapacitymin: "15",
+  cursorcolor: "#2C57E4",
+  cursorwidth: "7px",
+  scrollspeed:"20",
+  mousescrollstep :"50"
+});
